@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="outer-wrap">
+        <div class="inner-wrap">
+          <section class="First-section">
+            <p class="heading">notNotion</p>
+            <p class="sub-heading">Easiest Way To Track Your Transition</p>
+          </section>
+
+          <section class="Second-section">
+            <div class="add-transaction">
+              <h2>Add Transaction</h2>
+              <form  class="value-of-transaction">
+                <input type="text" name="" id="source" placeholder="Source" autocomplete="off"/>
+                
+                <input
+                  type="number"
+                  name=""
+                  id="amount"
+                  placeholder="Amount"
+                
+                />
+                
+                <input
+                  type="submit"
+                  name=""
+                  
+                  value="Add Transaction"
+                />
+                
+              </form>
+            </div>
+
+            <div class="stats">
+              <h2>statistics</h2>
+              <p class="balance">Balance: ₹<span id="balance">651</span></p>
+              <p class="income">Income: ₹<span id="income">700</span></p>
+              <p class="expense">Expense: ₹<span id="expense">49</span></p>
+            </div>
+          </section>
+
+          <section class="trasaction-history">
+            <h2>Transaction History</h2>
+            <div class="record">
+              <div class="income">
+                <h2>Income</h2>
+                <ul class="income-list">
+                  <!-- <li data-id="">
+                    <p>
+                      <span>Freelancing - JS Project</span>
+                      <span id="time">12:45:38 AM 5/2/2024</span>
+                    </p>
+                    <span id="value">$700</span>
+                    <i class="bi bi-trash delete"></i>
+                  </li> -->
+                </ul>
+              </div> 
+
+              <div class="expense">
+                <h2>Expense</h2>
+                <ul class="expense-list">
+                  <!-- <li data-id="">
+                    <p>
+                      <span>Streming Room</span>
+                      <span id="time">12:45:38 AM 5/2/2024</span>
+                    </p>
+                    <span id="value">$49</span>
+                    <i class="bi bi-trash delete"></i> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+  
+</html>
